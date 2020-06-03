@@ -138,7 +138,6 @@ async def amireallyalive(alive):
                      f"TELETHON VERSION: {version.__version__} \n"
                      f"PYTHON VERSION: {python_version()} \n"
                      f"------------------------------------ \n"
-                     f"WEBSIDE:  \n"
                      f"USER: {DEFAULTUSER} \n"
                      f"MAINTAINER: `@THEALIFHAKER1` \n"
                      f"#AE1_TEAM "
