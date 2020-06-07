@@ -135,6 +135,7 @@ async def amireallyalive(alive):
     await alive.edit(
                      "`I ALIVE MY MASTER` \n"
                      "`I WILL SERVE YOU EVERYTHING` \n"
+                     f"------------------------------------ \n"
                      f"TELETHON VERSION: {version.__version__} \n"
                      f"PYTHON VERSION: {python_version()} \n"
                      f"------------------------------------ \n"
