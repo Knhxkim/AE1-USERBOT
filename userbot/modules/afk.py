@@ -1,9 +1,4 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
-#
-# Licensed under the Raphielscape Public License, Version 1.d (the "License");
-# you may not use this file except in compliance with the License.
-# All Credits to https://t.me/azrim89 for timestamp.
-# All Credits to https://t.me/Devp73 for Offline stamps..
+# Copyright (C) 2020 The AE1™-USERBOT
 #
 
 """ Userbot module which contains afk-related commands """
@@ -81,10 +76,10 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**Going AFK!**\
-        \nReason: `{string}`")
+        await afk_e.edit(f"**MY MASTER IS AFK!**\
+        \nBecause: `{string}`")
     else:
-        await afk_e.edit("**Going AFK!**")
+        await afk_e.edit("**MY MASTER IS AFK!**")
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + " [ OFFLINE ]"))
     else:
@@ -109,7 +104,7 @@ async def type_afk_is_not_true(notafk):
     global afk_end
     user = await bot.get_me()
     last = user.last_name
-    if last and last.endswith(" [ OFFLINE ]"):
+    if last and last.endswith(" [ OFFLINE/AFK ]"):
         last1 = last[:-12]
     else:
         last1 = ""
@@ -117,7 +112,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = back_alive.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.respond("**My Master is back !**")
+        msg = await notafk.respond("**My Master is back!**")
         time.sleep(3)
         await msg.delete()
         await notafk.client(UpdateProfileRequest(first_name=user.first_name, last_name=last1))
