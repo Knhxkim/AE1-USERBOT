@@ -19,7 +19,7 @@ from userbot.events import register
 
 @register(pattern=".chatinfo(?: |$)(.*)", outgoing=True)
 async def info(event):
-    await event.edit("`Analysing the chat...`")
+    await event.edit("`Analysing the chat...MUAHAHAHA`")
     chat = await get_chatinfo(event)
     caption = await fetch_info(chat, event)
     try:
