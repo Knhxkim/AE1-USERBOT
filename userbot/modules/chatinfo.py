@@ -1,9 +1,5 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
+# Copyright (C) 2020 AE1™-USERBOT
 #
-# Licensed under the Raphielscape Public License, Version 1.d (the "License");
-# you may not use this file except in compliance with the License.
-#
-# Credits to Hitalo-Sama and FTG Modules
 
 from datetime import datetime
 from telethon import functions
