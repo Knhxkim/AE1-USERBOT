@@ -1,4 +1,4 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
+# Copyright (C) 2020 The AE1™-USERBOT
 #
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
@@ -133,15 +133,17 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await alive.edit(
+                     f"------------------------------------------------- \n"
                      "`I ALIVE MY MASTER` \n"
                      "`I WILL SERVE YOU EVERYTHING` \n"
-                     f"------------------------------------ \n"
+                     f"------------------------------------------------- \n"
                      f"TELETHON VERSION: {version.__version__} \n"
                      f"PYTHON VERSION: {python_version()} \n"
-                     f"------------------------------------ \n"
+                     f"------------------------------------------------- \n"
                      f"USER: {DEFAULTUSER} \n"
                      f"MAINTAINER: `@THEALIFHAKER1` \n"
                      f"#AE1_TEAM "
+                     f"------------------------------------------------- \n"
                      )    
 
 
