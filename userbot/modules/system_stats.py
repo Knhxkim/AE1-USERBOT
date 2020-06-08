@@ -142,7 +142,7 @@ async def amireallyalive(alive):
                      f"------------------------------------------------- \n"
                      f"USER: {DEFAULTUSER} \n"
                      f"MAINTAINER: `@THEALIFHAKER1` \n"
-                     f"#AE1_TEAM "
+                     f"#AE1_TEAM \n"
                      f"------------------------------------------------- \n"
                      )    
 
