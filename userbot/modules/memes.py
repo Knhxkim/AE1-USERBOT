@@ -1215,4 +1215,5 @@ CMD_HELP.update({
 \n\n.scam <action> <time>\
 \n[Available Actions: (typing, contact, game, location, voice, round, video, photo, document, cancel)]\
 \nUsage: Create fake chat actions, for fun. (Default action: typing)\
+\n\n\n#AE1_TEAM"
 })
