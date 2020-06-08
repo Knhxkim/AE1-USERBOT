@@ -1,8 +1,5 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
+# Copyright (C) 2020 AE1™-USERBOT
 #
-# Licensed under the Raphielscape Public License, Version 1.c (the "License");
-# you may not use this file except in compliance with the License.
-# cpin courtesy Uniborg.
 """
 Userbot module to help you manage a group
 """
