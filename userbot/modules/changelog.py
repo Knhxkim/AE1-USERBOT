@@ -1,7 +1,5 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
+# Copyright (C) 2020 AE1™-USERBOT
 #
-# Licensed under the Raphielscape Public License, Version 1.c (the "License");
-# you may not use this file except in compliance with the License.
 #
 """
 This module updates the userbot based on chtream revision
@@ -38,7 +36,7 @@ async def chtream(ch):
     "For .update command, check if the bot is up to date, update if specified"
     await ch.edit("`Checking for updates, please wait....`")
     conf = ch.pattern_match.group(1).lower()
-    off_repo = 'https://github.com/mkaraniya/OpenUserBot.git'
+    off_repo = 'https://github.com/THEALIFHAKER1/AE1-USERBOT.git'
 
     try:
         txt = "`Oops.. Updater cannot continue due to some problems occured`\n\n**LOGTRACE:**\n"
@@ -103,7 +101,7 @@ async def chtream(ch):
     await ch.edit('`New update found, updating...`')
     ch_rem.fetch(ac_br)
     await ch.edit('`Successfully Updated!\n'
-                   'Bot is restarting... Wait for a second!`')
+                   'Bot is restarting... !`')
     await install_requirements()
     await bot.disconnect()
     # Spin a new instance of bot
